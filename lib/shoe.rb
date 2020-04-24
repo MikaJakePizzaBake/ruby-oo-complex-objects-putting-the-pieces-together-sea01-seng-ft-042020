@@ -1,6 +1,7 @@
 class shoe
-  atrr_accessor :color, :size, :material, :condition
-  def initialize
+  atrr_accessor :color, :size, :material, :condition, :brand
+  def initialize (brand)
+    @brand = brand
     @color = color
     @size = size
     @material = material
